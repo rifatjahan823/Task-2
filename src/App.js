@@ -12,9 +12,6 @@ function App() {
       <Navebar></Navebar>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/service" element={''} />
-          <Route path="/about" element={''} />
-          <Route path="/blog" element={''} />
           <Route path="/login" element={<Login></Login>} />
           <Route path="/register" element={<Register></Register>} />
       </Routes>
