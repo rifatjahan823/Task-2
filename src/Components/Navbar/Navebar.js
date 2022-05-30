@@ -24,7 +24,7 @@ const Navebar = () => {
 
                <Link as={Link} to="/login">Login</Link>
     
-               <Link as={Link} to="/signup">SignUp</Link>
+               <Link as={Link} to="/register">SignUp</Link>
                </div>
            
             </Navbar.Collapse>

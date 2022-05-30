@@ -1,7 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowRight} from '@fortawesome/free-solid-svg-icons';
-import about from '../../../../img/about/money-financial-business-growth-concept-1223989.jpg'
+import about from '../../../../img/about/money-financial-business-growth-concept-1223989.jpg';
+import Reveal from 'react-reveal/Reveal';
+import { Zoom } from 'react-reveal';
 
 const About = () => {
     return (
@@ -9,7 +11,9 @@ const About = () => {
             <h2 className='product-title mb-5'>Product <span style={{color:'#FF6F00'}}>and Service</span></h2>
             <div className='row g-4 align-items-center '>
             <div className='col-md-6 col-12'>
+                <Zoom>
                     <img className='img-fluid' src={about} alt="" />
+                    </Zoom>
                 </div>
                 <div className='col-md-6 col-12 text-md-start text-center'>
                     <div className='product-content'>

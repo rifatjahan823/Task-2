@@ -2,7 +2,9 @@ import React from 'react';
 import service from '../../../img/service/services.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowRight} from '@fortawesome/free-solid-svg-icons';
+import Reveal from 'react-reveal/Reveal';
 import './Product.css'
+import { Zoom } from 'react-reveal';
 
 const Product = () => {
     return (
@@ -32,7 +34,9 @@ const Product = () => {
                     </div>
                 </div>
                 <div className='col-md-6 col-12'>
+                    <Zoom>
                     <img className='img-fluid' src={service} alt="" />
+                    </Zoom>
                 </div>
             </div>
         </div>
