@@ -35,7 +35,7 @@ const Footer = () => {
          {/* footer bootom part */}
         <div className='footre-botton'>
          <div className='container'>
-         <p className='mt-2'>&copy;2020 | Rifat Jahan </p>
+         <p className='mt-2'>&copy;2022 | Rifat Jahan </p>
          </div>
       </div>
         </div>
