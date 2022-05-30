@@ -18,7 +18,7 @@ const Banner = () => {
       
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-        <Roll bottom>
+        <Zoom>
        
           <img style={{height:'510px'}}
             className="d-block w-100"
@@ -26,26 +26,26 @@ const Banner = () => {
             alt="Second slide"
           />
           
-          </ Roll >
+          </ Zoom >
         </Carousel.Item>
        
         <Carousel.Item>
-        <Roll left>
+        <Zoom left>
           <img style={{height:'510px'}}
             className="d-block w-100"
             src={slider2}
             alt="Third slide"
           />
-          </Roll>
+          </Zoom>
         </Carousel.Item>
         <Carousel.Item>
-        <Roll right>
+        <Zoom right>
           <img style={{height:'510px'}}
             className="d-block w-100"
             src={slider3}
             alt="Third slide"
           />
-          </Roll>
+          </Zoom>
         </Carousel.Item>
       </Carousel>
     );
