@@ -5,7 +5,7 @@ import about from '../../../../img/about/money-financial-business-growth-concept
 
 const About = () => {
     return (
-        <div id="about" className='container mt-5'>
+        <div id="about" className='container my-5'>
             <h2 className='product-title mb-5'>Product <span style={{color:'#FF6F00'}}>and Service</span></h2>
             <div className='row g-4 align-items-center '>
             <div className='col-md-6 col-12'>
